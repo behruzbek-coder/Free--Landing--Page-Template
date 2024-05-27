@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+
+.base--btn {
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: var(--dark-clr);
+    color: var(--light-clr);
+    font-weight: 700;
+    font-size: 1.125rem;
+    border: 2px solid var(--dark-clr);
+    transition: 0.3s linear;
+
+}
+
+.base-btn:hover {
+    background-color: transparent;
+    color: var(--dark-clr);
+    cursor: pointer;
+
+}
+
+.nav {
+    background-color: var(--light-clr);
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 0;
+    border-bottom: 1px solid var(--secundry-clr);
+
+
+
+
+}
+
+.nav__list a {
+    display: flex;
+    text-decoration: none;
+    color: var(--sevundry-clr);
+    font-weight: 700;
+    font-size: 700;
+
+}
+
+.nav__list a.active {
+    color: var(--dark-clr);
+
+}
+.sp{
+    color: black;
+}
+.span{
+    color:var(--sevundr-clr) ;
+}
+/* hero */
+
+
+.hero {
+    padding: 40px 100px;
+
+}
+.hero__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+
+}
+.logo img {
+    width: 125px;
+    height: 120px;
+
+}
+.hero__info{
+    font-weight: 500;
+    font-size: 1.125rem; 
+    color: var(--dark-clr);
+
+
+}
+.lang{
+    transform: rotate(-90deg);
+    display: flex;
+    gap: 5px;
+
+}
+.lang button{
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    color: var(--dark-clr);
+
+}
+.lang button.active{
+    color: var(--sevundr-clr);
+}
+.hero__img{
+    width: 100%;
+    height: 380px;
+}
+.hero__img img{
+    width: 100%;
+    height: inherit;
+
+}
+/* Abaut */
+.abaut{
+    padding: 100px 0;
+    background-color: var(--silver-clr);
+    text-align: center;
+
+}
+.title{
+    font-size: 2.125rem;
+    margin-bottom: 35px;
+    color: var(--dark-clr);
+    font-weight: 700;
+    margin: 0 auto;
+}
+.h{
+    text-align: center;
+}
+.deck{
+    max-width: 485px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+/* skils */
+.skills{
+    padding: 90px 110px;
+    text-align: center;
+
+}
+.skills__card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(170px, 1fr));
+
+}
+.skills .deck{
+    margin-bottom: 80px;
+    margin: 0 auto;
+
+}
+.skills-image{
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+}
+.skills-image img{
+    width: 90px;
+    height: 90px;
+
+}
+.skills__item p{
+    width: 70px;
+    margin: 24px  auto 40px auto;
+    margin-top: 10%;
+
+
+}
+.skills__icons{
+    display: flex;
+    gap: 9px;
+    justify-content: center;
+
+}
+.title{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+/* porfolyo */
+.Portfolio{
+    background: var(--silver-clr);
+    padding: 120px  0 100px 0;
+}
+.Portfolio-deck{
+    text-decoration: none;
+    margin: 0 auto;
+    margin-left: 800px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    color: black;
+
+}
+.Portfolio .title{
+    margin-bottom: 50px;
+}
+
+
+.Portfolio-image{
+    width: 100%;
+    height: 510px;
+    text-align: center;
+
+}
+/* foter */
+.base--btn{
+    text-align: center;
+}
+.footer__icons{
+
+    display: flex;
+    justify-content:center;
+    gap: 60px;
+    margin-bottom:  45px;
+
+    
+}
+.deck{
+    text-align: center;
+}
+.a{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 500px;
+
+
+}
+.button{
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 590px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.footer__icons svg:hover path{
+    stroke: red;
+    fill: black;
+
+}
